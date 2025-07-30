@@ -8,3 +8,4 @@ router.put('/:id', UserController.updateUser);
 router.delete('/:id', UserController.deleteUser); 
 router.get('/', UserController.getAllUsers); 
 module.exports = router;
+// This file defines the routes for user-related operations, including registration, login, fetching by ID, updating, deleting, and listing all users. Each route is linked to a corresponding method in the UserController.

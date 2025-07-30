@@ -1,6 +1,6 @@
 const UserModel = require('../models/userModel'); 
 // Untuk password hashing, Anda bisa menggunakan bcrypt (npm install bcrypt) 
-// Contoh sederhana tanpa hashing untuk demo 
+// Contoh sederhana tanpa hashing untuk demoo
  
 const UserController = { 
     registerUser: async (req, res) => { 

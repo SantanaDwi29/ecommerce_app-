@@ -1,7 +1,7 @@
 const pool = require('../config/db');
 
 const UserModel = {
-    // Membuat pengguna baru
+    // Membuat users baru
     create: async (username, password, role) => {
         const [result] = await pool.execute(
             'INSERT INTO users (username, password, role) VALUES (?, ?, ?)',
